@@ -1,0 +1,124 @@
+.header-button{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-left-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 1px;
+    border-color: black;
+    border-style: solid;
+    top: 0px;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    background-color: white;
+    margin-left: -7px;
+}
+.placeholder{
+    height: 37px;
+    border-width: 1px;
+    border-color: rgb(72, 72, 34);
+    border-radius: 19px;
+    width: 350px;
+}
+.placeholder:active{
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(72, 72, 34) ;
+}
+.button{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-width: 0px;
+    border-color: rgb(236, 232, 225);
+    background-color: rgb(247, 249, 243);
+    border-radius: 90%;
+    box-shadow: 1px 1px 1px rgb(174, 177, 129);
+    color: black;
+    font-size:16px;
+    font-style:bold;
+    border-radius:5%;
+    cursor:pointer;
+}
+.button:hover{
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.button:active{
+    background-color: rgba(240, 240, 240, 0.4);
+}
+.header-image{
+    margin-top: 80px;
+    height: 350px;
+    width: 100%;
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+}
+.header-text{
+    color: white;
+    font-size: 50px;
+}
+.website-grid{
+ display: flex;
+ flex-direction: column;
+ height: 470px;
+ width: 800px;
+ margin-left: 10px;
+}
+.web-image{
+    height: 200px;
+}
+.side-login{
+    position: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(248, 249, 239);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
+    border-width: 1px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgba(240, 240, 240, 1);
+    flex-direction: column;
+    margin-top: -2200px;
+    margin-left: 900px;
+    height: 450px;
+    width: 300px;
+}
+.fb-button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 250px;
+    height: 55px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 4px;
+    padding-left: 0px;
+    padding-right:0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.fb-button:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+    
+}
+.fb-button:active{
+    border-width: 0px;
+}
+
+.below-eliment{
+    margin-top: 15px;
+    margin-right: 50px;
+    cursor: pointer;
+}

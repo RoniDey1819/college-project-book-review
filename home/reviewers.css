@@ -1,0 +1,106 @@
+.header-button{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-left-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 1px;
+    border-color: black;
+    border-style: solid;
+    top: 0px;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    background-color:white;
+    margin-left: -7px;
+}
+.placeholder{
+    height: 37px;
+    border-width: 1px;
+    border-color: rgb(72, 72, 34);
+    border-radius: 19px;
+    width: 350px;
+}
+.placeholder:hover{
+    border-width: 1px;
+}
+.button{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-width: 1px;
+    border-color: rgb(236, 232, 225);
+    background-color: white;
+    color: black;
+    font-size:16px;
+    font-style:bold;
+    border-radius:5%;
+    cursor:pointer;
+}
+.button:hover{
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.button:active{
+    background-color: rgba(240, 240, 240, 0.4);
+}
+
+.n2nd-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 1100px;
+    height: 50px;
+    background-color: rgb(237, 230, 226);
+    margin-top: 90px;
+    margin-left: 50px;
+    border-radius: 20px;
+}
+
+.portion{
+    display: flex;
+    flex-direction: row;
+    height: 350px;
+    width: 1000px;
+    margin-left: 160px;
+    margin-top: 45px;
+}
+.second-portion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.roni-button:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: rgb(225, 134, 101);
+    text-decoration-thickness: 2px;
+}
+.roni-button:active{
+    text-decoration: underline;
+    text-decoration-color: rgb(225, 134, 101) ;
+    text-decoration-thickness: 2px;
+    color: rgb(225, 134, 101) ;
+}
+.submit-button:hover{
+    opacity: 0.7;
+}
+.submit-button:active{
+    box-shadow: 2px 2px 2px rgb(237, 151, 100);
+}
+.below-eliment{
+    margin-top: 15px;
+    margin-right: 50px;
+    cursor: pointer;
+}
